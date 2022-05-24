@@ -8,7 +8,7 @@
                 <div class="card-header border-bottom">Create project</div>
 
                 <div class="card-body">
-                    <form method="POST" action="{{ route('createStudent') }}">
+                    <form method="POST" action="#">
                         @csrf
 
                         <div class="form-group row">
